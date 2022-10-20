@@ -1,5 +1,7 @@
 # BESCOM Twitter Complains
-### A project aimed at bringing awareness towards repeated power cuts. Power cuts in Bangalore happen for many reasons.
+### A project aimed at bringing awareness towards repeated power cuts. 
+
+Power cuts in Bangalore happen for many reasons.
 - Rain
 - Scheduled maintenance downtime
 - Overload
@@ -56,7 +58,7 @@ I then created 2 datasets, one raw, and the other grouped.
 - Grouped: locations with similar names like 'Koramangala 5th Block', 'Koramangala 8th Block' are now both under the alias 'Koramangala'.Not only this, but also smaller localities falling within bigger locations are grouped under the parent.
 - Raw contains locations name as written by users on twitter. 
 
-Note: Also cleaned up any typos/incorrect spellings directly in excel. This is captured in the grouped dataset
+Note: Also cleaned up any typos/incorrect spellings directly in excel. This is captured in the grouped dataset.
 
 Tableau Dashboard: [Grouped](https://public.tableau.com/views/NammaBESCOMComplainsOverviewGrouped/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link) | [Raw](https://public.tableau.com/views/NammaBESCOMComplainsOverviewRaw/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
@@ -71,6 +73,7 @@ Findings from Stage 1:
 WORK IN PROGRESS
 
 
-## Improvements
+# Improvements
 1. Use NLP and create a custom model to capture local locations.
 2. Ability to capture pincode and map to a location.
+3. Create pincode attribute in CSV and load in Tableau/Power BI to create a heat map of Bangalore City
