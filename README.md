@@ -13,30 +13,32 @@ The goal is to understand which of the reasons causes majority power cuts.
 
 As someone who has lived in Bangalore for over 6 years, here are some things i have observed over a period of time: 
 
-1. Scheduled maintenance causes 10% or less power cuts per month (depending on the area, if there is a maintenance planned, else the value for this factor would be 0%)
+1. Scheduled maintenance causes 10% or less power cuts per month (depending on the area, if there is a maintenance planned, else the value for this factor would be 0%).
 2. Less then 40% power cuts in a month are the result of rain.
 3. Rest of the power cuts are due to Load shedding or Overload in subdivisions due to bad infrastructure. 
 
 ### Data Sources
 
-1. Twitter for user complains
-2. BESCOM's site for monthly maintenance schedules
-3. OpenWeather API for historic montly data
+1. Twitter for user complains.
+2. BESCOM's site for monthly maintenance schedules.
+3. OpenWeather API for historic montly data.
 
 ### Tweet Analysis
 
-1. Tweet can contain only insults or sarcasm and no location
-2. Tweets can contain sarcasm and location
-3. Tweets can contain only pincode
-4. Tweets can contain only location (correct spelling)
-5. Tweets can contain only location (incorrect spelling)
-6. Tweets can contain location(incorrect spelling) and pincode
-7. Tweets can contain location(correct spelling) and pincode
-8. Tweets can contain only appreciation 
+1. Tweet can contain only insults or sarcasm and no location.
+2. Tweets can contain sarcasm and location.
+3. Tweets can contain only pincode.
+4. Tweets can contain only location (correct spelling).
+5. Tweets can contain only location (incorrect spelling).
+6. Tweets can contain location(incorrect spelling) and pincode.
+7. Tweets can contain location(correct spelling) and pincode.
+8. Tweets can contain only appreciation.
+9. Tweets in local language, Kannada.
 
 - Point 1 and 8 are of no use to us. 
-- Point 3, did not visit in this analysis
-- Point 6 & 7, partly covered in this analysis (no Pincode analysis)
+- Point 3, did not visit in stage 1 analysis
+- Point 6 & 7, partly covered in stage 1 analysis (no Pincode analysis)
+- Point 9, did not visit in stage 1 analysis
 
 
 ## The Process
